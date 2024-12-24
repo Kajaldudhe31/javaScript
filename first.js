@@ -12,7 +12,7 @@ console.log(isEdit)
 const Test = null
 console.log(Test)
 
-let mark;
+let mark; 
 console.log(mark)
 
 const y = BigInt("1224214")
@@ -179,10 +179,10 @@ console.log("!(W === '6') =", !(W === 6)) //true condition but false in NOT
 
 let AgeofSanket = 27;
 let Married =  'Engaged';
-if(AgeofSanket >= 30 || Married === 'Engaged'){
- console.log("Sanket Engaged at age of 27")
+if(AgeofSanket >= 30 &&  Married === 'Engaged'){
+ console.log("Sanket Engaged at the age of 27")
 }else{
-    console.log("Sanket Not Engaged at age of 27")
+    console.log("Sanket Not Engaged at the age of 27")
 }
 
 let mode = "Dark";
@@ -193,4 +193,15 @@ if(mode == "Dark"){
 if(mode == "Light"){
     message = alert('Hey I am Kajal Not Welcome to Javascript Session')
 }
-console.log(mode                               )
+console.log(mode)
+
+const pro = {
+    proName :'Ball Pen',
+    rating :4.5,
+    offer :10,
+    price :270,
+    isDeal :true,
+}
+console.log('Product Object',pro)
+console.log('price of Pen :',pro['price']+12)
+console.log(pro.proName)
